@@ -1,5 +1,5 @@
 /**
- * Time : O(N) ; Space: O(N)
+ * Time : O(N) ; Space: O(N) : Each look up in the table costs only O(1) time.
  * @tag : Array; Hash Table
  * @by  : Basila Nathan
  * @date: 11/21/17
@@ -17,7 +17,7 @@
  * Output: index1=1, index2=2
  * 
  ***************************************************************************
- * {@link https://leetcode.com/problems/two-sum/ }
+ * {@link https://leetcode.com/problems/two-sum/solution/ }
  */
 
 import java.util.HashMap;
