@@ -1,3 +1,20 @@
+/**
+ * Time : O(N) ; Space: O(1)
+ * @tag : Hash Table; Two Pointers; String
+ * @by  : Basila Nathan
+ * @date: 11/21/2017
+ ***************************************************************************
+ * Description:
+ * 
+ * Given a string, find the length of the longest substring without repeating 
+ * characters. For example, the longest substring without repeating letters 
+ * for "abcabcbb" is "abc", which the length is 3. For "bbbbb" the longest 
+ * substring is "b", with the length of 1.
+ * 
+ ***************************************************************************
+ * {@link https://leetcode.com/problems/longest-substring-without-repeating-characters/ }
+ */
+
 import java.util.HashMap;
 import java.util.Map;
 
