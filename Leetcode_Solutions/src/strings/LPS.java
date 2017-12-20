@@ -1,5 +1,14 @@
 package strings;
 
+/**
+ * 
+ * @author basila
+ * 
+ * Time O(N^2)
+ * Space O(1)
+ *
+ */
+
 public class LPS {
 	
 	//G E E K E G
@@ -30,8 +39,10 @@ public class LPS {
 	}
 	
 	public static void main(String[] args) {
-		String longest = longestPalindrome("geekeg");
-		System.out.println(longest);
+		String test1 = longestPalindrome("geekeg");
+		String test2 = longestPalindrome("xxxbcbxxxxxa");
+		System.out.println(test1);
+		System.out.println(test2);
 	}
 
 }
